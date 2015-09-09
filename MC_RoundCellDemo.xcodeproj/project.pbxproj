@@ -14,6 +14,7 @@
 		B398F2671BA02B3A00A7521E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B398F2661BA02B3A00A7521E /* Images.xcassets */; };
 		B398F26A1BA02B3A00A7521E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B398F2681BA02B3A00A7521E /* LaunchScreen.xib */; };
 		B398F2761BA02B3A00A7521E /* MC_RoundCellDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B398F2751BA02B3A00A7521E /* MC_RoundCellDemoTests.m */; };
+		B398F2821BA02BCD00A7521E /* RoundCellBackGroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = B398F2811BA02BCD00A7521E /* RoundCellBackGroundView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		B398F26F1BA02B3A00A7521E /* MC_RoundCellDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MC_RoundCellDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B398F2741BA02B3A00A7521E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B398F2751BA02B3A00A7521E /* MC_RoundCellDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MC_RoundCellDemoTests.m; sourceTree = "<group>"; };
+		B398F2801BA02BCD00A7521E /* RoundCellBackGroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoundCellBackGroundView.h; path = roundCellBackGroundView/RoundCellBackGroundView.h; sourceTree = "<group>"; };
+		B398F2811BA02BCD00A7521E /* RoundCellBackGroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RoundCellBackGroundView.m; path = roundCellBackGroundView/RoundCellBackGroundView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		B398F2581BA02B3A00A7521E /* MC_RoundCellDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B398F27F1BA02B4400A7521E /* roundCellBackGroundView */,
 				B398F25D1BA02B3A00A7521E /* AppDelegate.h */,
 				B398F25E1BA02B3A00A7521E /* AppDelegate.m */,
 				B398F2601BA02B3A00A7521E /* ViewController.h */,
@@ -117,6 +121,15 @@
 				B398F2741BA02B3A00A7521E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B398F27F1BA02B4400A7521E /* roundCellBackGroundView */ = {
+			isa = PBXGroup;
+			children = (
+				B398F2801BA02BCD00A7521E /* RoundCellBackGroundView.h */,
+				B398F2811BA02BCD00A7521E /* RoundCellBackGroundView.m */,
+			);
+			name = roundCellBackGroundView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +235,7 @@
 				B398F2621BA02B3A00A7521E /* ViewController.m in Sources */,
 				B398F25F1BA02B3A00A7521E /* AppDelegate.m in Sources */,
 				B398F25C1BA02B3A00A7521E /* main.m in Sources */,
+				B398F2821BA02BCD00A7521E /* RoundCellBackGroundView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
